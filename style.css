@@ -1,0 +1,30 @@
+ul li {
+    cursor: pointer;
+    border: 1px solid #a19f9f;
+    background-color: #fffcfc;
+    border-radius: 6px;
+    padding: 6px 0px;
+    margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+ul li p {
+    flex-grow: 1;
+
+}
+.btn{
+    font-size: 16px;
+    font-weight: 600 ;
+    padding-right: 5px;
+}
+.editbtn{
+    color: green;
+    padding-right: 10px;
+}
+
+.deletebtn{
+    color: red;
+}
